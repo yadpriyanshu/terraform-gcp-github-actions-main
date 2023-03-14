@@ -5,7 +5,7 @@ provider "google" {
 
 terraform {
   backend "gcs" {
-    bucket = "round-bounty-363611-tfstate"
+    bucket = "github-actions-tfstate-2023-03-15"
     prefix = "terraform/state"
   }
 }
